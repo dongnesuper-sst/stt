@@ -1,0 +1,182 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+#container{
+    width: 860px;
+    height: 560px;
+}
+#header{
+    width: 825px;
+    height: 55px;
+    background-color: #56565615;
+    position: relative;
+    top :19px;
+    left: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header img{
+    width: 200px;
+    height: 29px;
+}
+
+#msgBox{
+    width: 825px;
+    height: 305px;
+    border: 1px solid #56565660 ;
+    position: absolute;
+    top: 83px;
+    left: 18px;
+    overflow-y: auto;
+}
+.words{
+    padding: 5px;
+}
+
+
+#p{
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    display: inline-block;
+}
+
+
+
+#selector{
+    /* width: 114px; */
+    width: 134px;
+    height: 35px;
+    position: fixed;
+    top: 395px;
+    /* left: 720px; */
+    left: 700px;
+    cursor: pointer;
+    /* text-align: center; */
+}
+
+.selectValue{
+    width: 113px;
+}
+
+#textMsg{
+    position: absolute;
+    top: 395px;
+    left: 385px;
+    font-size: 20px;
+    color: #465866;
+    font-weight: 500;
+}
+
+.commonIcon{
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    top: 464px;
+    border: 1px solid #56565660;
+    border-radius: 50%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    cursor: pointer;
+}
+
+#save{
+    left: 150px ;
+}
+
+#clipboard{
+    left:270px ;
+}
+#trash{
+    left: 540px;
+}
+#share{
+    left: 660px;
+}
+
+#mic{
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    top: 448px;
+    left: 390px;
+    cursor: pointer;
+    /* transition: 3s; */
+}
+
+#rate{
+    position: fixed;
+    top: 525px;
+    left: 735px;
+    text-decoration: none;
+    color: 66A3FC;
+    font-size: 12px;
+}
+#rate a{
+    text-decoration: none;
+
+}
+
+
+/* #upperSection{
+    width: 100%;
+    height: 65.5%;
+    background-color: rgba(255, 0, 0, 0.452);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#midSection{
+    width: 100%;
+    height: 23%;
+    background-color: rgba(81, 31, 197, 0.363);
+    position: absolute;
+    top: 65.5%;
+    left: 0;
+    padding: 10px;
+    border: 1px solid grey;
+}
+
+#lowerSection{
+    width: 100%;
+    height: 11.5%;
+    background-color: rgba(43, 0, 255, 0.363);
+    position: absolute;
+    top: 88.5%;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#text{
+    margin-top: 10px;
+}
+
+#micIcon{
+    height: 71px;
+    width: 71px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid grey;
+    cursor: pointer;
+}
+
+#micIcon img{
+    height: 65%;
+    width: 65%;
+}
+
+#lowerSideSection{
+    margin-right: 1%;
+}
+ */
+
